@@ -1,0 +1,91 @@
+
+.h1 {
+margin-bottom: 150rem;
+}
+
+.arredondamento {
+    border-radius: 70px;
+    align-items: center;
+}
+
+.produto .info-preco,
+#frutas .info-preco {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-preco .parcelamento {
+   display: block; 
+   font-size: 12px;
+
+}
+
+.produto .controles,
+#frutas .controles {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto .controles a,
+#frutas .controles a{
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    cursor: pointer;
+    color: #666;
+}
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 45px;
+    padding: 50px 0px 20px 0px;
+}
+
+footer h6 {
+    color: #fff;
+}
+
+.nav-item {
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+}
+footer li a {
+    color: rgb(194, 194, 194);
+}
+footer i {
+    color: rgb(194, 194, 194);
+}
+footer ul .media {
+    float: right;
+    margin: 0 8px;
+}
+
+#icones-nav {
+    color: #fff;
+    margin-right: 25px;
+
+}
+.icone1 {
+    margin-right: 30px;
+}
+#carousel-controles img {
+    height: 500px;
+    object-fit: cover;
+}
+
+#frutas > .container {
+
+margin-top: 30px;
+}
