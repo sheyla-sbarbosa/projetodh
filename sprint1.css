@@ -3,6 +3,11 @@
 margin-bottom: 150rem;
 }
 
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 .arredondamento {
     border-radius: 70px;
     align-items: center;
@@ -87,5 +92,4 @@ footer ul .media {
 
 #frutas > .container {
 
-margin-top: 30px;
-}
+
